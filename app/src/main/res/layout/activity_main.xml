@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/backgroundimage">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="我的第一个完整程序"
+        android:layout_marginBottom="100dp"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LogIn"
+        android:layout_gravity="center"
+        android:onClick="Log_In"
+        tools:ignore="HardcodedText"
+        android:backgroundTint="#00D4BB"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LogIn_SQLite"
+        android:layout_gravity="center"
+        android:onClick="LogIn_SQLite"
+        tools:ignore="HardcodedText"
+        android:backgroundTint="#00D4BB"/>
+
+
+</LinearLayout>
