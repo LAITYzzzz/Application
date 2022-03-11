@@ -33,5 +33,14 @@
         tools:ignore="HardcodedText"
         android:backgroundTint="#00D4BB"/>
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="我自己设计的主页面"
+        android:layout_gravity="center"
+        android:onClick="display_message_activity"
+
+        android:backgroundTint="#00D4BB"/>
+
 
 </LinearLayout>

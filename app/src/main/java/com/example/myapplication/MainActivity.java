@@ -23,4 +23,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent=new Intent(MainActivity.this,SQLite_Activity.class);
         startActivity(intent);
     }
+
+    public void display_message_activity(View view) {
+        Intent intent=new Intent(MainActivity.this,DisplayMessageActivity.class);
+        startActivity(intent);
+    }
 }
